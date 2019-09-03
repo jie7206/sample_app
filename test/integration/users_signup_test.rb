@@ -26,6 +26,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     follow_redirect!
     assert_template 'users/show'
     assert_select "div", "欢迎您来到我的范例网站!"
+    assert is_logged_in?
   end
 
 end
