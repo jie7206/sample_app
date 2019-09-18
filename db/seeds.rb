@@ -23,3 +23,4 @@ User.create!(name:  "Michael Lin",
                activated: true,
                activated_at: Time.zone.now)
 end
+50.times { User.order(:created_at).take(6).each { |user| user.microposts.create!(content: Faker::Lorem.sentence(5)) } }
