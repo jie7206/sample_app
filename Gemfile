@@ -42,7 +42,7 @@ gem 'nokogiri'
 gem 'will_paginate'
 
 gem 'carrierwave', '1.1.0'
-gem 'mini_magick', '4.7.0'
+gem 'mini_magick', '4.9.4'
 gem 'fog-aws', '2.0.0'
 
 group :development, :test do
