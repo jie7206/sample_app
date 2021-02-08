@@ -41,7 +41,7 @@ gem 'faker'
 gem 'nokogiri'
 gem 'will_paginate'
 
-gem 'carrierwave', '1.1.0'
+gem 'carrierwave', '1.3.2'
 gem 'mini_magick', '4.7.0'
 gem 'fog-aws', '2.0.0'
 
